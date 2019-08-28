@@ -1,0 +1,35 @@
+{
+    "Name": "SanTech - Data Encryption Power User",
+    "IsCustom": true,
+    "Description": "Enables management of Key Vaults.",
+    "Actions": [
+        "Microsoft.Authorization/*/read",
+        "Microsoft.Insights/alertRules/*",
+        "Microsoft.KeyVault/*",
+        "Microsoft.Resources/deployments/*",
+        "Microsoft.Resources/subscriptions/resourceGroups/read",
+        "Microsoft.Support/*"
+    ],
+    "NotActions": [
+        "Microsoft.KeyVault/hsmPools/*",
+        "Microsoft.KeyVault/locations/deletedVaults/purge/action",
+        "Microsoft.KeyVault/register/*",
+        "Microsoft.KeyVault/vaults/delete",
+        "Microsoft.KeyVault/vaults/write"
+    ],
+    "AssignableScopes": [
+        "/subscriptions/a811808f-245c-4cce-ab8f-e8c842f34715",
+        "/subscriptions/4dac3877-a2ea-4f16-acec-36e9037d0d94",
+        "/subscriptions/2254c161-75de-4f7f-9c51-8dd392b9b61a",
+        "/subscriptions/69e8b69d-5c4f-429e-9091-3652463cb601",
+        "/subscriptions/efdffea0-3c4e-4cf9-b074-997e13fa69d3",
+        "/subscriptions/7783681a-4e23-41dc-a424-c216fa0a6673",
+        "/subscriptions/e6efec6b-ad76-44f1-996f-e3a744a57c16",
+        "/subscriptions/b4369402-5d79-4124-9a5a-1416ed7d2500",
+        "/subscriptions/1f29b32d-1a66-4448-bf9f-f99394732715",
+        "/subscriptions/e7ea9b8f-870b-4fd5-b2b6-a21dec93486c",
+        "/subscriptions/b8c3c124-5483-4b1a-b15d-4bc72e3dc214",
+        "/subscriptions/f6311649-7bd4-440b-aa35-a83b0f8ac721",
+        "/subscriptions/11a3abd7-5215-4f93-b08b-2a22b11349a8"
+    ]
+}
