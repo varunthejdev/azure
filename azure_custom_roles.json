@@ -1,0 +1,18 @@
+[
+    "Administrator",
+    "Data_Encryption_Contributor",
+    "Data_Encryption_Power_User",
+    "DevOps_Contributor",
+    "IAM_Contributor",
+    "IAM_Power_User",
+    "Network_Contributor",
+    "Network_Security_Group_Contributor",
+    "Read_Only",
+    "Resource_Group_Contributor",
+    "Storage_Contributor",
+    "Storage_Power_User",
+    "Subscription_Contributor",
+    "Virtual_Machine_Contributor",
+    "Virtual_Machine_Operator",
+    "Virtual_Machine_Power_User"
+]
